@@ -129,7 +129,12 @@ module.exports = {
     // bellSoundURL: 'http://example.com/bell.mp3',
 
     // for advanced config flags please refer to https://hyper.is/#cfg
-  },
+  	/* PLUGIN CONFIGS */ 
+    hyperBorder: {
+	borderColors: ['#80d0c7','#13547a', '#80d0c7'],
+	borderAngle: '45deg'
+    }  
+},
 
   // a list of plugins to fetch and install from npm
   // format: [@org/]project[#version]
