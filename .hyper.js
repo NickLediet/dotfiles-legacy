@@ -69,6 +69,7 @@ module.exports = {
     // custom padding (CSS format, i.e.: `top right bottom left`)
     padding: '12px 14px',
 
+    rainglow: 'crackpot',
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
     // an array here instead of a color map object
@@ -142,7 +143,14 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hyper-snazzy", "hyperborder", "hyper-statusline", "hyper-alt-click"],
+  plugins: [
+    "hyper-snazzy",
+    "hyperborder",
+    "hyper-statusline",
+    "hyper-alt-click",
+    "hyper-wal",
+    "rainglow"
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
