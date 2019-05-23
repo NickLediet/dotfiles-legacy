@@ -100,6 +100,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export CODESTATS_API_KEY=SFMyNTY.Ym1samEyeGxaR2xsZEE9PSMjTkRrNE53PT0.IMTOnMBHVBjutplE_eCFEnHOKUYufV2NjdkCP84VEJg
 export CODESTATS_LOG_FILE="${HOME}/.codestats_log"
+
+source ./zsh-codestats/codestats.zsh
+
 source "${HOME}/.zgen/zgen.zsh"
 
 export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}.nvm"
