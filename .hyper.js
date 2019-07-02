@@ -4,6 +4,7 @@
 
 module.exports = {
   config: {
+    webGLRenderer: false,
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
     updateChannel: 'stable',
@@ -143,14 +144,10 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [
-    "hyper-snazzy",
-    "hyperborder",
-    "hyper-statusline",
-    "hyper-alt-click",
-    "hyper-wal",
-    "rainglow"
-  ],
+  plugins: [//    "hyper-snazzy",
+  "hyperborder", "hyper-statusline", //    "hyper-wal",
+  //    "rainglow"
+  "hyper-alt-click", "hyperterm-palenight"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
